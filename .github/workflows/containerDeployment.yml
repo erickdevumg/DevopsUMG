@@ -23,4 +23,4 @@ jobs:
       - name: Build Docker NET image
         run: | 
           docker build --platform linux -t $IMAGE_BASE_NAME .
-```
+
